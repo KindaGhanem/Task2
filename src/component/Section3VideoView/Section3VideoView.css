@@ -1,0 +1,78 @@
+.SectionVideoView{
+    width: 100%;
+    background-image: url(./../../../public/images/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px 200px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.SectionVideoView p{
+    width: 360px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.SectionVideoView img{
+    position: absolute;
+    bottom: -150px;
+    border-radius: 10px;
+    width:700px;
+}
+.BGPlayVideo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    background-color: #fff;
+    color: #e46842;
+    outline: 20px solid rgba(199, 86, 55, 0.5);
+    font-size: 18px;
+}
+.BGPlayVideo .PlayVideo{
+    font-size: 50px !important;
+
+}
+
+@media(max-width:992px){
+    .SectionVideoView img{
+        bottom: 20px;
+        width:400px;
+
+    }
+    .SectionVideoView p{
+        font-size: 35px;
+
+    }
+    .BGPlayVideo{
+        bottom: 65px;
+
+
+    }
+
+
+}
+@media(max-width:500px){
+    .SectionVideoView img{
+        width:300px;
+
+    }
+    .SectionVideoView p{
+        width: 300px
+    }
+    .SectionVideoView{
+        padding-top: 20px;
+    }
+
+
+
+}

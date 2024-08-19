@@ -1,0 +1,17 @@
+.CommonTitle{
+    color: #ee626b;
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+}
+.CommonTitle::before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 18px;
+    background-color: #ee626b;
+    left: -6px;
+    top: 1px;
+
+}

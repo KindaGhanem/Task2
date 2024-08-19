@@ -1,0 +1,132 @@
+.SectionContactUs{
+    background-image: url(./../../../public/images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px 0 250px 0;
+    position: relative;
+}
+.ContactPar{
+    width: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    color:white;
+    text-align: center;
+}
+.ContactPart2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 300px;
+}
+.ContactItems{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.ContactCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ContactCardPart1{
+    box-shadow: 1px 1px 10px rgba(41, 37, 37, 0.15);
+    background-color: white;
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.ContactCardPart1 img{
+    width: 50px;
+    height: 50px;
+}
+.ContactCardPart1 span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.ContactForm{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 40px;
+    box-shadow: 1px 1px 10px rgba(41, 37, 37, 0.15);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.ContactForm label{
+    margin-bottom: 7px;
+}
+.ContactForm input{
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: #f6f6f6;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    text-indent: 20px;
+}
+.ContactForm textarea{
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border: none;
+    height: 100px;
+    text-indent: 20px;
+}
+@media(max-width:992px){
+    .ContactItems iframe{
+        width: 400px;
+        height: 450px !important;
+
+    }
+    .ContactCardPart1{
+        /* width: 200px; */
+        margin-right: 10px;
+    }
+    .ContactCardPart1 span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .ContactForm{
+        margin-top: 20px;
+        width: 300px;
+        margin-left: 0px;
+    }
+     
+}
+@media(max-width:760px){
+    .ContactCardPart1{
+        margin-top: 20px;
+    }
+    .ContactForm{
+        margin-top: 20px;
+    }
+    .ContactCard{
+        justify-content: center;
+    }
+
+}
+@media(max-width:560px){
+    .ContactItems iframe{
+        width:300px ;
+        height: 250px;
+    }
+    .ContactCardPart1{
+        margin-top: 20px;
+    }
+}

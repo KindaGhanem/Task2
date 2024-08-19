@@ -1,0 +1,100 @@
+.SectionFeatured{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+.BG-Featured-Image{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f35525;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px; 
+    right: 50px;
+}
+.Featured-Second-Part{
+    padding-bottom: 190px;
+}
+.Featured-Second-Part .Featured-Second-Paragraph1{
+    width: 300px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Featured-Accordion{
+    background-color: rgb(248, 239, 239);
+    padding-right: 15px;
+    border-radius: 10px;
+
+}
+.Featured-Accordion h5{
+    border-bottom: 1px solid #b6b3b3;
+    padding: 10px;
+}
+.Answer1 ,
+.Answer2 ,
+.Answer3 
+{
+    display: none;
+}
+.Answer1Show ,
+.Answer2Show ,
+.Answer3Show
+{
+    display: block;
+    transition: 0.5s;
+}
+.Featured-Accordion p{
+    width: 300px;
+}
+.Feature-Card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #c7c7c7;
+    padding: 10px 10px 20px 10px;
+}
+.Feature-Card-All{ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(15, 12, 12, 0.15);
+    padding: 35px 30px;
+}
+.Feature-Card img{
+    margin-right: 30px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.Feature-Card:nth-child(4){
+    border-bottom: 0;
+}
+.Feature-Card h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width:1200px){
+    .SectionFeatured:nth-child(1) ,
+    .SectionFeatured:nth-child(2) ,
+    .SectionFeatured:nth-child(3)
+    {
+        margin-right: 10px;
+    }
+    
+
+
+}
+@media (max-width:550px){
+    .ImageFeatured{
+        width: 250px;
+    }
+    .Featured-Second-Part{
+        padding-bottom: 30px;
+    }
+}
+
+
+
